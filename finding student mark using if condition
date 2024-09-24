@@ -1,0 +1,10 @@
+
+value=100
+if(value<35):
+  print("fail")
+elif(value<35 and value>75):
+    print("average") 
+elif(value>75):
+    print("good")
+else:
+ print("invalid value")
