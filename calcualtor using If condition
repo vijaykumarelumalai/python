@@ -1,0 +1,14 @@
+a=10
+b=20
+print("\n 1.add \n 2.sub \n 3.mul\n 4.div \n ,Enter the value:")
+choice=input()
+if(choice== "add"):
+    print("The sum of a and b are :",a+b)
+elif(choice == "sub"):
+    print("The sub of a and b are :",a-b)
+elif(choice == "mul"):
+    print("The mul of a and b are :",a*b)
+elif(choice == "div"):
+    print("The div of a and b are :",a/b)
+else:
+    print("invalid")
