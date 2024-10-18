@@ -1,0 +1,13 @@
+a=int(input("Enter the age 1:"))
+b=int(input("Enter the age 2:"))
+c=int(input("Enter the age 3:"))
+d=int(input("Enter the age 4:"))
+
+if a<b and a<c and a<d:
+   print("A is small")
+elif b<a and b<c and b<d:
+     print("B is small")
+elif c<a and c<b and c<d:
+     print ("c is small")
+else:
+     print(" D is small")
